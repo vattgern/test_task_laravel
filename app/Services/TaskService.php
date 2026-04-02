@@ -55,7 +55,7 @@ class TaskService
     {
         return Task::create([
             'title'         => $DTO->title,
-            'descriptiopn'  => $DTO->description,
+            'description'  => $DTO->description,
             'status'        => $DTO->status
         ]);
     }
@@ -74,7 +74,7 @@ class TaskService
 
         $task->update([
             'title'         => $DTO->title,
-            'descriptiopn'  => $DTO->description,
+            'description'  => $DTO->description,
             'status'        => $DTO->status
         ]);
 
